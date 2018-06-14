@@ -1,0 +1,1 @@
+FxCopCmd.exe /outputCulture:1033 /out:"WebApplication.dll.CodeAnalysisLog.xml" /file:"..\AnalyzableProjects\WebApplication\bin\WebApplication.dll"  /searchgac /ignoregeneratedcode /saveMessagesToReport:Active /rule:+"FxCop.CustomRules\bin\Debug\FxCop.CustomRules.dll" /console /timeout:120 

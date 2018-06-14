@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rules FriendlyName="EPAM Custom FxCop Rules">
+    <Rule TypeName="ControllerSchouldInheritFromBaseController"
+          Category="MVC"
+          CheckId="EP1000">
+        <Name>ControllerSchouldInheritFromBaseController</Name>
+        <Description>Controller Schould Inherit From BaseController</Description>
+        <Url></Url>
+        <Resolution>Controller '{0}' is not derived from 'WebApplication.Controllers.BaseController'</Resolution>
+        <MessageLevel Certainty="0">Warning</MessageLevel>
+        <Email></Email>
+        <FixCategories>NonBreaking</FixCategories>
+        <Owner></Owner>
+    </Rule>
+    <Rule TypeName="NoDirectCallLogManager"
+          Category="MVC"
+          CheckId="EP1001">
+        <Name>NoDirectCallLogManager</Name>
+        <Description>LogManager should not direct call from code</Description>
+        <Url></Url>
+        <Resolution>Method '{0}' call LogManager</Resolution>
+        <MessageLevel Certainty="0">Warning</MessageLevel>
+        <Email></Email>
+        <FixCategories>NonBreaking</FixCategories>
+        <Owner></Owner>
+    </Rule>
+    <Rule TypeName="ControllerShouldHasControllerSuffix"
+          Category="MVC"
+          CheckId="EP1002">
+        <Name>ControllerShouldHasControllerSuffix</Name>
+        <Description>Controller should has Controller suffix</Description>
+        <Url></Url>
+        <Resolution>Class '{0}' should has Controller suffix</Resolution>
+        <MessageLevel Certainty="0">Warning</MessageLevel>
+        <Email></Email>
+        <FixCategories>NonBreaking</FixCategories>
+        <Owner></Owner>
+    </Rule>
+    <!--<Rule TypeName="ControllerShouldHasAttributeAuthorize"
+          Category="MVC"
+          CheckId="EP1003">
+        <Name>ControllerShouldHasAttributeAuthorize</Name>
+        <Description>Controller should has Authorize attribute</Description>
+        <Url></Url>
+        <Resolution>Class '{0}' should has Authorize attribute</Resolution>
+        <MessageLevel Certainty="0">Warning</MessageLevel>
+        <Email></Email>
+        <FixCategories>NonBreaking</FixCategories>
+        <Owner></Owner>
+    </Rule>-->
+
+</Rules>
